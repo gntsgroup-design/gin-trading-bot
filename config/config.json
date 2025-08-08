@@ -1,0 +1,48 @@
+{
+  "api": {
+    "binance_api_key": "",
+    "binance_secret_key": "",
+    "testnet": true
+  },
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "trading": {
+    "interval": "15m",
+    "max_positions": 5,
+    "risk_per_trade": 0.02
+  },
+  "pairs": {
+    "BTCUSDT": {
+      "leverage": 10,
+      "shadow_distance_threshold": 1.5,
+      "trade_volume": 20,
+      "rsi_long_threshold": 30,
+      "rsi_short_threshold": 70,
+      "take_profit_percent": 2.0,
+      "stop_loss_percent": 1.0,
+      "enabled": true
+    },
+    "ETHUSDT": {
+      "leverage": 15,
+      "shadow_distance_threshold": 1.2,
+      "trade_volume": 25,
+      "rsi_long_threshold": 25,
+      "rsi_short_threshold": 75,
+      "take_profit_percent": 2.5,
+      "stop_loss_percent": 1.2,
+      "enabled": true
+    },
+    "BNBUSDT": {
+      "leverage": 125,
+      "shadow_distance_threshold": 1.5,
+      "trade_volume": 20,
+      "rsi_long_threshold": 14,
+      "rsi_short_threshold": 85,
+      "take_profit_percent": 3.0,
+      "stop_loss_percent": 1.5,
+      "enabled": true
+    }
+  }
+}
